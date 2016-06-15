@@ -34,16 +34,18 @@ body {
     height: 14px;
     position: relative;
     display: inline-block;
+    padding: 22px;
+    top: 14px;
 }
 
 #cabecera #main span {
     display: block;
     position: absolute;
     height: 5px;
-    width: 80%;
+    width: 60%;
     background-color: #fff;
     opacity: 1;
-    left: 4px;
+    left: 8px;
 }
 
 #cabecera #main span:nth-child(1) {
@@ -52,7 +54,6 @@ body {
 
 #cabecera #main span:nth-child(2){
     top: 7px;
-    padding-top: 5px;
 }
 
 #cabecera #main span:nth-child(3){
